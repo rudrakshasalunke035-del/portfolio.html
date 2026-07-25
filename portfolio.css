@@ -1,0 +1,70 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    color: black;
+}
+nav{
+    height: 60px;
+    background-color: lightblue;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 15px 50px;
+}
+.navbar a:hover{
+    transition: 4ms;
+    transform: hover 3.0s;
+    color: whitesmoke;
+    
+}
+.Portfolio{
+    margin-left: 10px;
+}
+.items{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+button{
+    margin-top: 20px;
+    padding: 12px;
+background-color: #04344c;
+color: aliceblue;
+font-size: 16px;
+border-radius: 60px;
+cursor: pointer;
+transition: 4ms;
+transform: hover 1.9s;
+}
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 7px brown;
+}
+img{
+    width:300px; 
+    height: 300px;
+   box-shadow: 0 0 10px brown;
+   transform: none;
+}
+table{
+    box-shadow: 0 0 20px lightblue;
+    background-color:none;
+    padding:50px;
+}
+body{
+    scroll-behavior: smooth;
+}
+form{
+    border-radius: 20px;
+}
+.contact-form input, .contact-form textarea{
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-color: black;
+}
+ @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero h1 { font-size: 2rem; }
+        }
