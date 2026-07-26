@@ -1,4 +1,12 @@
- <link rel="stylesheet" href="portfolio.css"> 
+ <!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+ 
  <header>
         <nav>
             <h1 class="Portfolio">✉️My Portfolio</h1>
@@ -9,14 +17,27 @@
                 <a href="Projects.html">Projects</a>  |
                 <a href="contact.html">Contact</a>  |
             </div>
+            
             <button class="btn">⬇️</button>
         </nav>
     </header>
+
+    <style>
+        @media (max-width: 768px) {
+  .home-table, .home-table tr, .home-table td{
+    display: block !important;
+    width: 100% !important;
+  }
+  .home-text{text-align:center !important; padding:10px !important;}
+  .home-img img{width:200px !important; height:200px !important; margin:20px auto;}
+}
+    </style>
+    
  <section id="home">
     <div style="margin: 50px">
         <table width="90%" height="300" cellpadding="200" align="center">
             <tr>
-                <!-- LEFT BOX - TEXT -->
+               
                 <td width="50%" valign="down">
                     <h1>Hi, I'm Rudraksha</h1>
                     <h2>Web Developer</h2>
@@ -25,7 +46,7 @@
                     I build beautiful and responsive websites.</p>
                 </td>
 
-                <!-- RIGHT BOX - IMAGE -->
+               
                 <td width="10%" align="center" valign="middle">
                     <img src="Profile.jpg.jpeg" alt="profile" width="250" height="250">
                 </td>
@@ -35,3 +56,6 @@
        <a href="mailto:rudrakshasalunke035@gmail.com">
        <button class="btn">📞Hire Me</button></a>
     </section>
+
+    </body>
+    </html>
