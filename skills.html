@@ -1,5 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
 
-<link rel="stylesheet" href="portfolio.css"> 
 
 <header>
         <nav>
@@ -11,31 +18,60 @@
                 <a href="Projects.html">Projects</a>  |
                 <a href="contact.html">Contact</a>  |
             </div>
+            
             <button class="btn">⬇️</button>
         </nav>
     </header>
     
-<body style="margin:0; background:#FFFFFF; font-family:Arial; scroll-behavior: smooth;">
+<style>
+  @media (max-width: 768px) {
+  .box-30, div[style*="width: 30%"]{
+    width: 90% !important;
+    margin: 20px auto !important;
+    padding: 20px !important;
+  }
+  .bar{margin:5px 5px 15px 5px !important;}
+}
+</style>
 
-    <div style="
+
+   <div style="
         width: 30%; 
-        margin: 190px auto; 
+        margin: 50px auto; 
         padding: 30px; 
-        border: 2px  white; 
+        border: 2px solid white; 
         border-radius: 15px; 
         text-align: center; 
         background-color: white;
-        box-shadow: 0 0 20px lightblue;">
+        box-shadow: 0 0 20px lightblue;"> 
 
-<center>
-<h1>Skills</h1>
+<style>
+.bar{background:#ddd;
+     height:12px;
+      border-radius:6px;
+       margin:5px 0 15px 0;}
+.bar div{background:#04344c;
+     height:10px; 
+     border-radius:6px;}
 
-<button class="btn">HTML</button>
-<button class="btn">CSS</button>
+</style>
+ <center><h1>Skills</h1></center>
 
-<button class="btn">Java</button>
-<button class="btn">SQL</button>
-</center></div>
+  <div class="skill">HTML 
+    <div class="bar"><div style="width:75%"></div></div>
+  </div>
+
+  <div class="skill">CSS 
+    <div class="bar"><div style="width:70%"></div></div>
+  </div>
+
+  <div class="skill">JavaScript 
+    <div class="bar"><div style="width:70%"></div></div>
+  </div>
+
+
+</div>
+</div>
 
 </body>
 </html>
