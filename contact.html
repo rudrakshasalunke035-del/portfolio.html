@@ -1,6 +1,12 @@
-
-<link rel="stylesheet" href="C:\Users\Rudraksha\OneDrive\Desktop\Portfolio\portfolio.css">
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+<link rel="stylesheet" href="portfolio.css">
+</head>
 <body>
+
         <header>
         <nav>
             <h1 class="Portfolio">✉️My Portfolio</h1>
@@ -11,9 +17,23 @@
                 <a href="Projects.html">Projects</a>  |
                 <a href="contact.html">Contact</a>  |
             </div>
+            
             <button class="btn">⬇️</button>
         </nav>
     </header>
+
+<style>
+    @media (max-width: 768px) {
+  .contact-wrapper, div[style*="display: flex"]{
+    display: block !important;
+  }
+  .contact-wrapper > div, div[style*="display: flex"] > div{
+    width: 90% !important;
+    margin: 15px auto !important;
+  }
+}
+</style>
+
 <div class="contact-wrapper" style="display: flex;">
 <div style="  width: 30%; 
         margin: 80px auto; 
@@ -49,6 +69,9 @@
   <textarea name="message" placeholder="Your Message"></textarea><br>
   <button class="btn" type="submit">Send Message</button>
 </form>
-</center></div></div>
+</center>
+</div>
+</div>
+
 </body>
 </html>
